@@ -1,0 +1,14 @@
+This problem was recently asked by Google.
+
+Given a list of numbers and a number 'k', return whether any two numbers from the list add up to 'k'.
+Eg) [10,15,3,7] and k=17 ; function returns true since 10+7=17
+
+Bonus: Can you do this in one pass? 
+
+
+{
+	Done in 3 tries -- 
+		1. The 'list(input())' breaks every character into an element of the list.
+		2. The 'eval(input())' makes a numeric array into a tuple by default.
+		3. Success [used 'list(eval(input()))']
+};

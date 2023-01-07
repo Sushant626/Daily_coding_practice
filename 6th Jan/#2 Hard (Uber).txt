@@ -1,0 +1,11 @@
+This problem was asked by Uber.
+
+Given an array of integers, return a new array such that each element at index 'i' of the new array is the product of all the numbers in the original array except the one at 'i'
+For example, if input array is [1,2,3,4,5], the expected output would be [120,60,40,30,24] while if input is [3,2,1] then output would be [2,3,6]
+
+Follow up: What if you can't use division?
+
+{
+	With Division, done on the first try.
+	Without Division, made a small flowchart in a rough notebook but done on the first try.
+}
